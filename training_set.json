@@ -1,0 +1,169 @@
+{
+    "GAD MANDATES": {
+        "Memorandum": [
+            "message", "communication", "note", "email", "letter", "missive", "directive", "reminder announcement",
+            "bulletin", "declaration", "notification", "posting", "proclamation", "pronouncement", "release dispatch",
+            "report", "edict", "pronunciamiento", "rescript", "charge", "command", "dictate", "directions", "instructions",
+            "orders", "word", "encyclical", "epistle", "jotting", "letter", "mail", "message", "missive", "note", "post"
+        ],
+        "Guidelines": [
+            "recommendation", "instruction", "direction", "suggestion", "advice", "regulation", "rule", "principle", "guiding principle", 
+            "standard", "criterion", "measure", "gauge", "yardstick", "benchmark", "touchstone", "procedure", "parameter", "adjuration", "admonishment", 
+            "admonition", "counsel", "advice", "input", "recommendation", "suggestion", "hint", "pointer", "tip", "data", "feedback", 
+            "information", "answer", "solution", "advisement", "consideration", "thought", "alarm", "alert", "caution", 
+            "cautioning", "expostulation", "forewarning", "remonstrance", "remonstration", "urging", "warning", "judgment", "judgement", 
+            "observation", "verdict", "assistance", "briefing", "coaching", "direction", "instruction", "mentoring", "priming", "prompting", 
+            "teaching", "tutoring", "interference", "meddling", "moralizing", "pontificating", "preaching", "exhortation", "lecture", "lesson", "sermon", "speech"
+        ],
+        "Implementing": [
+            "execute", "apply", "put into effect"," put into action"," put into practice", "carry out/through", "perform", "enact",
+            "fulfill", "discharge", "accomplish", "bring about", "achieve", "realize", "actualize", "administer", "apply", "execute",
+            "enforce", "bring about", "effect", "effectuate", "discharge", "fulfill", "fulfil", "render", "cite", "invoke", "enact",
+            "legislate", "honor", "observe", "uphold", "prosecute", "promulgate"
+        ],
+        "Laws": [
+            "regulation", "statute", "enactment", "act", "bill", "decree", "edict", "bylaw", "rule", "ruling", "ordinance", "dictum", "command", "order", "directive",
+            "pronouncement", "proclamation", "dictate", "fiat", "act", "bill", "constitution", "enactment", "ordinance", "statute", "commandment", "decree",
+            "dictate", "directive", "edict", "fiat", "ruling", "bylaw", "ground rule", "regulation", "rule", "amendment", "legislation", "common law", "martial law",
+            "blue law", "prohibition", "proscription", "restriction", "canon", "capitulary", "encyclical"
+        ],
+        "Gender": [
+            "syntactic category", "neuter", "grammatical gender", "feminine", "masculine", "grammatical category", "sexual", "femaleness", "nonsexual", "asexual",
+            "bisexuality", "maleness", "sex", "masculinity", "sexuality", "hermaphroditism", "female", "feminineness", "androgynous", "male", "androgyny", "physiological property"
+        ]
+
+    },
+    "LINKAGES": {
+        "Partners": [
+            "colleague", "associate", "coworker", "fellow worker", "collaborator", "comrade", "teammate", "archaic compeer", "better half", "consort", "mate", "spouse", "significant", "Company"
+        ],
+        "Equality": [
+            "fairness", "equal rights", "equal opportunities", "equity", "egalitarianism; impartiality", "evenhandedness", "justice", "coequality", "coordinateness",
+            "equivalence", "equivalency", "par", "parity", "sameness", "comparability", "compatibility", "correlation", "correspondence", "alikeness",
+            "community", "likeness", "parallelism", "resemblance", "similarity", "similitude", "exchangeability", "interchangeability", "identicalness", "identity"  
+        ],
+        "Fragility": [
+            "easily broken", "shattered", "damaged", "delicate", "brittle", "frail", "fragile ceramic container", "a very fragile alliance", "vulnerably delicate", 
+            "lacking in substance or force", "flimsy", "a fragile excuse", "daintiness", "exquisiteness", "fineness", "delicacy", "frangibility", "diaphanousness", "flimsiness", 
+            "insubstantiality", "wispiness", "brittleness", "crumbliness", "friability"
+        ],
+        "Harmonized": [ 
+            "coordinate", "systematize", "correlate", "integrate", "synchronize", "make consistent", "homogenize", "bring in line", "bring in tune", "agree", "assort", "blend", 
+            "chime", "chime in", "conform", "consort", "coordinate", "groove", "balance", "correlate", "correspond", "dovetail", "hang together", "match", "meet", "parallel", "bond",
+            "coalesce", "cohere", "conjoin", "fuse", "merge", "square", "tally"
+        ],
+        "Tool": [
+            "implement", "utensil", "instrument", "device", "apparatus", "gadget", "appliance", "machine", "contrivance", "contraption", "informal", "gizmo",
+            "implement",  "mechanism", "contraption", "contrivance", "gadget", "gismo",
+            "jigger", "accessory", "accessary", "accoutrement", "accouterment", "adjunct", "appendage", "attachment"
+        ],
+
+        "International": [
+            "global", "worldwide", "intercontinental", "universal", "foreign", "multinational", "transnational", "transcontinental"
+        ]
+
+    },
+    "PPA": {
+        "Project": [
+            "assignment", "piece of work", "piece of research", "task", "plan", "program", "enterprise", "undertaking", "venture", "proposal", "idea", "concept",
+            "scheme", "arrangement", "blueprint", "design", "game", "game plan", "ground plan", "master plan", "program", "plan", "road map", "scheme", "strategy",
+            "system", "collusion", "conspiracy", "plot", "contrivance", "device", "gambit", "maneuver", "ruse", "stratagem", "subterfuge", "trick", "counterplan",
+            "counterstrategy", "means", "tactic", "technique", "way", "procedure", "protocol", "conception", "idea", "projet", "specific", "specification", "aim", "intent",
+            "intention", "purpose", "diagram", "formula", "layout", "map", "pattern", "platform", "policy", "recipe", "setup"
+        ],
+        "Activities": [
+            "bustle", "hustle and bustle", "busyness", "action", "liveliness", "movement", "life", "stir", "flurry", "happenings", "occurrences", "proceedings",
+            "events", "incidents", "informaltoing and froing", "comings and goings", "pursuit", "occupation", "interest", "hobby", "pastime", "recreation",
+            "diversion", "venture", "undertaking", "enterprise", "project", "scheme", "business", "entertainment", "act", "action", "deed", "exploit", "exercise",
+            "conditioning", "exertion", "training", "warm-up", "workout", "toning", "trimming", "aerobics", "athletics", "bodybuilding", "body mechanics",
+            "calisthenics", "gymnastics", "isometrics", "plyometrics", "slimnastics", "weight lifting", "physical therapy"
+        ],
+        "Program": [
+            "schedule", "agenda", "calendar", "timetable", "order of events", "lineup", "plan of action", "series of measures", "strategy", "scheme",
+            "broadcast", "production", "show", "presentation", "transmission", "performance", "telecast", "arrange", "organize", "plan",
+            "map out", "timetable", "line up", "slate", "agenda", "calendar", "docket", "timetable", "card", "dance card", "exercises",
+            "plate", "arrangement", "order", "ordering", "organization", "sequence", "setup", "Phrases bill of fare"
+        ],
+        "Mainstreaming": [
+            "normal", "conventional", "ordinary", "orthodox", "conformist", "accepted", "established", "recognized", "common", "usual", "prevailing", 
+            "popular", "average", "common", "current", "dominant", "general", "normal", "primary", "regular", "standard", "accepted", 
+            "established", "predominant", "typical", "widespread" 
+        ],
+        "Training": [
+            "instruction", "teaching", "coaching", "tuition", "tutoring", "guidance", "schooling", "education", "orientation", "indoctrination",
+            "inculcation", "initiation", "exercise", "exercises", "working out", "conditioning", "preparation", "drill", "practice",
+            "practise", "routine", "assignment", "homework", "lesson", "brush up", "refresher", "review"
+        ],
+        "Accomplishment": [
+            "achievement", "act", "deed", "exploit", "performance", "effort", "feat", "move", "coup", "expertise", "skill", "skillfulness",
+            "talent", "adeptness", "adroitness", "deftness", "dexterity", "ability", "prowess", "mastery", "competence", "capability", "proficiency",
+            "aptitude", "artistry", "art achievement", "acquirement", "attainment", "baby", "coup", "success", "triumph", "blockbuster", "hit",
+            "jackpot", "megahit", "miracle", "smash", "winner", "conquest", "gain", "victory", "win", "arrival",
+            "completion", "consummation", "culmination", "execution", "fruition", "fulfillment", "implementation", "realization"
+        ],
+        "Plan": [
+            "procedure", "scheme", "strategy", "idea", "proposal", "proposition", "suggestion", "action point", "project", "program", "system", "method",
+            "stratagem", "recipe", "way", "means", "measure", "objective", "goal", 
+            "target", "ambition", "drawing", "illustration", "representation", "intend", "aim", "propose", 
+            "mean", "hope", "want", "wish", "desire", "envisage", "organize", "arrange", "work out", "prepare", 
+            "schedule", "formulate", "frame", "develop", "devise", "concoct", "hatch", "brew", "slate", "design", "draw up", "sketch out", 
+            "map out", "arrangement", "blueprint", "design", "game", "game plan", "ground plan", "master plan", "road map", "scheme", 
+            "strategy", "system", "collusion", "conspiracy", "plot", "contrivance", "device", "gambit", "maneuver", "ruse", "stratagem", "subterfuge", "trick", 
+            "counterplan", "counterstrategy",  "tactic", "technique", "way procedure", "protocol", "conception", "projet", "specific", 
+            "specifications", "aim", "intent", "intention", "purpose", "diagram", "formula", "layout", "map", "pattern", "platform", "policy", "recipe", "setup"
+        ]
+    },
+    "Resources": {
+        "Modules": [
+            "cartridge", "component", "system", "element", "power module", "constituent", "educational program", "syllabus", "schedule", "studies", "subjects", "program of studies"
+        ],
+        "Reports": [
+            "announce", "describe", "give an account of", "detail", "outline", "communicate", "divulge", "disclose", "reveal", "make public",
+            "publish", "broadcast", "proclaim", "publicize", "cover", "write about", "give details of", "commentate on", "investigate", 
+            "look into", "inquire into", "bang", "blast", "boom", "crack", "crash", "pop", "clap", "slam", "smash", "snap", "thunderclap", "thwack", "whack", 
+            "whomp", "whump", "chronicle", "chronology", "commentary", "commentaries", "history", "narration", "narrative", "record", 
+            "account", "story", "character", "fame", "mark", "name", "note", "odor", "reputation", "repute", "buzz", "dish", "gossip", 
+            "hearsay", "noise", "rumor", "scuttlebutt", "talk", "tattle", "word"
+        ],
+        "Concepts": [
+            "idea", "notion", "conception", "abstraction", "theory", "hypothesis", "belief", "opinion",
+            "generalization", "generality", "stereotype", "cogitation", 
+            "image", "impression", "intellection", "mind's eye", "picture", "thought", "apprehension", "premonition", "presentiment",
+            "preconception", "prejudice", "prepossession", "chimera", "delusion", "hallucination", "illusion", "phantasm",
+            "caprice", "conceit", "fancy", "freak", "kink", "vagary", "whim", "cognition", "observation", "perception", "reflection", "assumption",
+            "conclusion", "conviction", "conjecture", "guess", "hunch", "speculation", "supposition", "surmise",
+            "brainchild", "brainstorm", "brain wave", "inspiration" 
+        ],
+        "Guide": [
+            "escort", "attendant", "tour guide", "administer", "administrate", "carry on", "control", "direct", "govern", "conduct", "handle",
+            "keep", "manage", "operate", "overlook", "oversee", "preside", "steward", "superintend", "supervise",
+            "tend docent", "cicerone", "chaperone", "model", "pattern", "blueprint", "template", "example", "exemplar", "pointer",
+            "marker", "indicator", "signpost", "mark", "landmark", "guiding light", "sign", "signal", "beacon", "show",
+            "show the way", "usher", "shepherd", "accompany", "attend", "take", "help", "assist",
+            "direct", "steer", "command", "lead", "run", "be in charge of", "have control of",
+            "pilot", "preside over", "handle", "regulate"
+        ],
+        "Curriculum": [
+            "syllabus", "course of study", "program of study", "subjects", "educational program", "modules", "studies"
+        ],
+        "Awareness": [
+            "consciousness", "recognition", "realization", "understanding", "appreciation", "knowledge", "insight",
+            "familiarity", "advertence", "advertency", "attention", "cognizance", "ear", "eye", "heed", 
+            "mindfulness", "note", "notice", "observance", "observation", "hyperawareness", "hyperconsciousness", "advisement", "care",
+            "concern", "consideration", "regard", "watch", "apprehension", "discernment", "grasp", "mind", "perception", "recognition", "thought", "understanding"
+        ],
+        "Sensitivity": [
+            "responsiveness", "reactivity", "susceptibility", "vulnerability", "consideration", "care", 
+            "thoughtfulness", "tact", "diplomacy",  "subtlety", "finer feelings", "understanding", "empathy", 
+            "sensibility", "feeling", "intuition", "receptiveness", "perception", "discernment", 
+            "insight savoir faire", "touchiness", "oversensitivity", "hypersensitivity", "defensiveness", 
+            "trickiness", "awkwardness", "ticklishness", "acuteness", "delicacy", "keenness", "perceptiveness",
+            "perceptivity", "sensitiveness", "acuity", "sharpness", "accuracy", "exactitude", "exactness", "fineness"
+        ]
+    }
+}
+
+	
+
+ 	
+
