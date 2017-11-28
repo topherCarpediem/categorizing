@@ -37,14 +37,14 @@
 // var_dump($response);
 
 $url = 'http://127.0.0.1:5000';
-$data = array('key1' => 'value1', 'key2' => 'value2');
+$data = array('filepath' => 'C:\Users\pb7n0079\Desktop\pip\SOP Build Megabank.docx', 'filename' => 'value2');
 
 // use key 'http' even if you send the request to https://...
 $options = array(
     'http' => array(
-        'header'  => "Content-type: application/x-www-form-urlencoded\r\n",
+        'header'  => "Content-type: application/json\r\n",
         'method'  => 'POST',
-        'content' => http_build_query($data),
+        'content' => json_encode($data),
     ),
 );
 $context  = stream_context_create($options);
