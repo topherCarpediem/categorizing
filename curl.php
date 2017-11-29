@@ -37,7 +37,7 @@
 // var_dump($response);
 
 $url = 'http://127.0.0.1:5000';
-$data = array('filepath' => 'C:\Users\pb7n0079\Desktop\pip\SOP Build Megabank.docx', 'filename' => 'value2');
+$data = array('filepath' => 'C:\Users\pb7n0079\Desktop\pip\Writing a Thesis.docx', 'filename' => 'value2');
 
 // use key 'http' even if you send the request to https://...
 $options = array(
@@ -50,6 +50,6 @@ $options = array(
 $context  = stream_context_create($options);
 $result = file_get_contents($url, false, $context);
 
-var_dump($result);
+echo($result);
 
 ?>

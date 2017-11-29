@@ -9,5 +9,5 @@ def hey():
     data = request.get_json()
     path = data['filepath']
     result = convert.distinguish(path)
-    print(request.get_json())
+    
     return json.dumps(result)

@@ -5,6 +5,7 @@ import docx2txt
 category = { }
 
 def read_training_set():
+    
     with open('training_set.json') as json_data:
         for key, value in json.load(json_data).items():
             yield key, value
@@ -17,6 +18,11 @@ def read_file(filepath):
 
 
 def distinguish(filepath):
+    print(30 * "=")
+    print('Reading the training set....')
+    print(30 * "=")
+    print('Reading the file...')
+    print(30 * "=")
     for key, value in read_training_set():
         for k, v in value.items():
             category[k] = 0
@@ -26,6 +32,18 @@ def distinguish(filepath):
                         category[k] = category[k] + 1
                         
         
-    print(k, category[k], end='\r')
-    return category
+    for key, value in category.items():
+        print(key,": ",value, "occurence")
+
+    print(60 * "*")
+   
+    column = max(category, key=category.get)
+    table = [k for k, v in read_training_set() if column in v]
+    
+    result = { "table": ''.join(table), "column": column  }
+
+    print('Highest occurence is', column, "with", category[column], "occurences")
+    print(60 * "*")
+   
+    return json.dumps(result)
 
