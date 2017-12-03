@@ -1,6 +1,8 @@
+import os
 import re
 import json
 import docx2txt
+import PyPDF2
 
 category = { }
 
@@ -12,9 +14,28 @@ def read_training_set():
 
 
 def read_file(filepath):
-    content = docx2txt.process(filepath)
-    for item in re.sub(r'(\W+)', ' ', content).split(' '):
-        yield item
+    
+    extension = os.path.splitext(filepath)[1].lower()
+
+    if extension == '.docx':
+
+        content = docx2txt.process(filepath)
+        for item in re.sub(r'(\W+)', ' ', content).split(' '):
+            yield item
+
+    elif extension == '.pdf':
+        pdfFileObj = open(filepath, 'rb')
+        pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
+        
+        pdf_content = ' '
+
+        for i in range(0, pdfReader.numPages):
+            pageObj = pdfReader.getPage(i)
+            page_content = pageObj.extractText()
+            pdf_content += ' ' + page_content
+        
+        for item in re.sub(r'(\W+)', ' ', pdf_content).split(' '):    
+            yield item
 
 
 def distinguish(filepath):

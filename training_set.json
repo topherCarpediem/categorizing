@@ -1,5 +1,5 @@
 {
-    "GAD MANDATES": {
+    "gad": {
         "Memorandum": [
             "message", "communication", "note", "email", "letter", "missive", "directive", "reminder announcement",
             "bulletin", "declaration", "notification", "posting", "proclamation", "pronouncement", "release dispatch",
@@ -33,7 +33,7 @@
         ]
 
     },
-    "LINKAGES": {
+    "linkages": {
         "Partners": [
             "colleague", "associate", "coworker", "fellow worker", "collaborator", "comrade", "teammate", "archaic compeer", "better half", "consort", "mate", "spouse", "significant", "Company"
         ],
@@ -63,7 +63,7 @@
         ]
 
     },
-    "PPA": {
+    "ppa": {
         "Project": [
             "assignment", "piece of work", "piece of research", "task", "plan", "program", "enterprise", "undertaking", "venture", "proposal", "idea", "concept",
             "scheme", "arrangement", "blueprint", "design", "game", "game plan", "ground plan", "master plan", "program", "plan", "road map", "scheme", "strategy",
@@ -113,7 +113,7 @@
             "specifications", "aim", "intent", "intention", "purpose", "diagram", "formula", "layout", "map", "pattern", "platform", "policy", "recipe", "setup"
         ]
     },
-    "Resources": {
+    "resources": {
         "Modules": [
             "cartridge", "component", "system", "element", "power module", "constituent", "educational program", "syllabus", "schedule", "studies", "subjects", "program of studies"
         ],
