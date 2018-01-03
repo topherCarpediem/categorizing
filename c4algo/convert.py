@@ -12,16 +12,23 @@ def read_training_set():
         for key, value in json.load(json_data).items():
             yield key, value
 
+def filterContent(filepath):
+    content = read_file(filepath)
+
+    for item in re.sub(r'(\W+)', ' ', content).split(' '):    
+        yield item
+    
+    # for item in re.sub(r'(\W+)', ' ', content).split(' '):
+    #   yield item
+
 
 def read_file(filepath):
     
     extension = os.path.splitext(filepath)[1].lower()
 
     if extension == '.docx':
-
         content = docx2txt.process(filepath)
-        for item in re.sub(r'(\W+)', ' ', content).split(' '):
-            yield item
+        return content   
 
     elif extension == '.pdf':
         pdfFileObj = open(filepath, 'rb')
@@ -34,11 +41,12 @@ def read_file(filepath):
             page_content = pageObj.extractText()
             pdf_content += ' ' + page_content
         
-        for item in re.sub(r'(\W+)', ' ', pdf_content).split(' '):    
-            yield item
+        return pdf_content
+       
 
 
 def distinguish(filepath):
+
     print(30 * "=")
     print('Reading the training set....')
     print(30 * "=")
@@ -47,7 +55,7 @@ def distinguish(filepath):
     for key, value in read_training_set():
         for k, v in value.items():
             category[k] = 0
-            for item in read_file(filepath):
+            for item in filterContent(filepath):
                 for i in v:
                     if i == item:
                         category[k] = category[k] + 1
@@ -57,14 +65,17 @@ def distinguish(filepath):
         print(key,": ",value, "occurence")
 
     print(60 * "*")
-   
+    
     column = max(category, key=category.get)
     table = [k for k, v in read_training_set() if column in v]
     
-    result = { "table": ''.join(table), "column": column  }
+    description = read_file(filepath)
+    description = description[:500]
+    print(description)
+    result = { "table": ''.join(table), "column": column, "description": description  }
 
     print('Highest occurence is', column, "with", category[column], "occurences")
     print(60 * "*")
-   
+    
     return json.dumps(result)
 
